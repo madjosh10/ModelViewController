@@ -13,6 +13,8 @@
 		55485AD321582F63003BD93F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55485AD221582F63003BD93F /* Assets.xcassets */; };
 		55485AD621582F63003BD93F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55485AD421582F63003BD93F /* LaunchScreen.storyboard */; };
 		55485AE121583621003BD93F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485AE021583621003BD93F /* CustomView.swift */; };
+		55485AE32158387E003BD93F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485AE22158387E003BD93F /* Movie.swift */; };
+		55485AE62158391A003BD93F /* Incredibles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55485AE52158391A003BD93F /* Incredibles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55485AD521582F63003BD93F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55485AD721582F63003BD93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55485AE021583621003BD93F /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		55485AE22158387E003BD93F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		55485AE52158391A003BD93F /* Incredibles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incredibles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		55485ACA21582F5E003BD93F /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				55485AE42158390A003BD93F /* Helpers */,
 				55485ADD21582F84003BD93F /* Model */,
 				55485ADE21582F93003BD93F /* View */,
 				55485ADF21582F9B003BD93F /* Controller */,
@@ -71,6 +76,7 @@
 		55485ADD21582F84003BD93F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				55485AE22158387E003BD93F /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				55485ACD21582F5E003BD93F /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		55485AE42158390A003BD93F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				55485AE52158391A003BD93F /* Incredibles.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,8 @@
 			files = (
 				55485AE121583621003BD93F /* CustomView.swift in Sources */,
 				55485ACE21582F5E003BD93F /* ViewController.swift in Sources */,
+				55485AE62158391A003BD93F /* Incredibles.swift in Sources */,
+				55485AE32158387E003BD93F /* Movie.swift in Sources */,
 				55485ACC21582F5E003BD93F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
