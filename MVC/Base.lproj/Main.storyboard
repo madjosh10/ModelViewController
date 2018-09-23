@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oCQ-A0-EHf">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oCQ-A0-EHf" customClass="CustomView" customModule="MVC" customModuleProvider="target">
                                 <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="Cua-qa-k1l">
-                                        <rect key="frame" x="8" y="8" width="284" height="65"/>
+                                        <rect key="frame" x="15" y="15" width="270" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="65" id="1WS-m2-3NX"/>
                                         </constraints>
@@ -30,13 +30,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detailed Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecT-3J-CLS">
-                                        <rect key="frame" x="8" y="141" width="284" height="151"/>
+                                        <rect key="frame" x="15" y="155" width="277" height="130"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjp-SD-D7J">
-                                        <rect key="frame" x="8" y="81" width="284" height="52"/>
+                                        <rect key="frame" x="15" y="88" width="277" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="Xci-As-ODl"/>
                                         </constraints>
@@ -48,17 +48,17 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ecT-3J-CLS" secondAttribute="trailing" constant="8" id="0Yi-a0-qrN"/>
-                                    <constraint firstItem="pjp-SD-D7J" firstAttribute="leading" secondItem="oCQ-A0-EHf" secondAttribute="leading" constant="8" id="3zT-b5-WOM"/>
-                                    <constraint firstItem="ecT-3J-CLS" firstAttribute="top" secondItem="pjp-SD-D7J" secondAttribute="bottom" constant="8" id="4JL-OI-uoq"/>
+                                    <constraint firstItem="pjp-SD-D7J" firstAttribute="leading" secondItem="oCQ-A0-EHf" secondAttribute="leading" constant="15" id="3zT-b5-WOM"/>
+                                    <constraint firstItem="ecT-3J-CLS" firstAttribute="top" secondItem="pjp-SD-D7J" secondAttribute="bottom" constant="15" id="4JL-OI-uoq"/>
                                     <constraint firstAttribute="trailing" secondItem="pjp-SD-D7J" secondAttribute="trailing" constant="8" id="HHz-Gr-guG"/>
-                                    <constraint firstAttribute="trailing" secondItem="Cua-qa-k1l" secondAttribute="trailing" constant="8" id="KQi-G1-oSg"/>
+                                    <constraint firstAttribute="trailing" secondItem="Cua-qa-k1l" secondAttribute="trailing" constant="15" id="KQi-G1-oSg"/>
                                     <constraint firstItem="pjp-SD-D7J" firstAttribute="top" secondItem="Cua-qa-k1l" secondAttribute="bottom" constant="8" id="Q9t-YZ-flA"/>
                                     <constraint firstAttribute="width" constant="300" id="QEx-MF-wdz"/>
-                                    <constraint firstItem="Cua-qa-k1l" firstAttribute="leading" secondItem="oCQ-A0-EHf" secondAttribute="leading" constant="8" id="Ulw-Sv-MqN"/>
-                                    <constraint firstItem="Cua-qa-k1l" firstAttribute="top" secondItem="oCQ-A0-EHf" secondAttribute="top" constant="8" id="XLi-9F-hYC"/>
+                                    <constraint firstItem="Cua-qa-k1l" firstAttribute="leading" secondItem="oCQ-A0-EHf" secondAttribute="leading" constant="15" id="Ulw-Sv-MqN"/>
+                                    <constraint firstItem="Cua-qa-k1l" firstAttribute="top" secondItem="oCQ-A0-EHf" secondAttribute="top" constant="15" id="XLi-9F-hYC"/>
                                     <constraint firstAttribute="height" constant="300" id="pBd-kV-Qij"/>
-                                    <constraint firstAttribute="bottom" secondItem="ecT-3J-CLS" secondAttribute="bottom" constant="8" id="sxV-Da-hQ8"/>
-                                    <constraint firstItem="ecT-3J-CLS" firstAttribute="leading" secondItem="oCQ-A0-EHf" secondAttribute="leading" constant="8" id="urR-xf-cHo"/>
+                                    <constraint firstAttribute="bottom" secondItem="ecT-3J-CLS" secondAttribute="bottom" constant="15" id="sxV-Da-hQ8"/>
+                                    <constraint firstItem="ecT-3J-CLS" firstAttribute="leading" secondItem="oCQ-A0-EHf" secondAttribute="leading" constant="15" id="urR-xf-cHo"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7g-nx-dtX">
