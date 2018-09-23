@@ -54,14 +54,38 @@
 		55485ACA21582F5E003BD93F /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				55485ADD21582F84003BD93F /* Model */,
+				55485ADE21582F93003BD93F /* View */,
+				55485ADF21582F9B003BD93F /* Controller */,
 				55485ACB21582F5E003BD93F /* AppDelegate.swift */,
-				55485ACD21582F5E003BD93F /* ViewController.swift */,
-				55485ACF21582F5E003BD93F /* Main.storyboard */,
 				55485AD221582F63003BD93F /* Assets.xcassets */,
 				55485AD421582F63003BD93F /* LaunchScreen.storyboard */,
 				55485AD721582F63003BD93F /* Info.plist */,
 			);
 			path = MVC;
+			sourceTree = "<group>";
+		};
+		55485ADD21582F84003BD93F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55485ADE21582F93003BD93F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55485ACF21582F5E003BD93F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55485ADF21582F9B003BD93F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55485ACD21582F5E003BD93F /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

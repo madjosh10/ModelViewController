@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
+    @IBOutlet weak var detaileDescLabel: UILabel!
+    
+    
+    
+    @IBAction func updateButtonWasPressed(_ sender: Any) {
+        
+        titleLabel.text = "Updated Title"
     }
-
-
-}
+} // end ViewController class
 
